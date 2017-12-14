@@ -1,0 +1,12 @@
+Kodėl su demo.xml nepasileidžia?
+Kaip pasalinti senuju nebenaudojamu moduliu likucius serveryje?
+Kur apibreziamas pagrindinio modulio lango (kuriame ivedamas instance) view?
+Kam reikalingas templates.xml failas?
+Kaip idiegti formose įvedamos info autocomplete option?
+Kaip padaryti, kad decimal point naudotų LT kablelį, jei registruota šalis Lietuva?
+Koks modulis labiausiai tinkamas sukurti pavyzdziui programoje naudoajmu valiutu duomenu baze, ar tam is viso reikalingas modulis?
+Kaip sukurti klientų duomenų bazę? Naudoti esamą modulį?
+Kaip susieti klientų ir projektų duomenų bazes?
+Kaip parodyti projektus irasu kalendoriuje?
+Kaip susieti projektus su Google Calendar?
+Kaip sukurti sąskaitos template'ą?

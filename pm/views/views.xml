@@ -1,0 +1,69 @@
+<odoo>
+  <data>
+    <!-- explicit list view definition -->
+
+    <record model="ir.ui.view" id="pm.list">
+      <field name="name">pm list</field>
+      <field name="model">pm.pm</field>
+      <field name="arch" type="xml">
+        <tree>
+          <field name="customer"/>
+          <field name="name"/>
+          <field name="description"/>
+          <field name="qty"/>
+          <field name="uom"/>
+          <field name="price"/>
+          <field name="value"/>
+          <field name="currency"/>
+          <field name="calculated"/>
+          <field name="my_currency"/>
+          <field name="date"/>
+          <field name="deadline"/>
+        </tree>
+      </field>
+    </record>
+
+
+    <!-- actions opening views on models -->
+    <!--
+    <record model="ir.actions.act_window" id="pm.action_window">
+      <field name="name">pm window</field>
+      <field name="res_model">pm.pm</field>
+      <field name="view_mode">tree,form</field>
+    </record>
+    -->
+
+    <!-- server action to the one above -->
+    <!--
+    <record model="ir.actions.server" id="pm.action_server">
+      <field name="name">pm server</field>
+      <field name="model_id" ref="model_pm_pm"/>
+      <field name="state">code</field>
+      <field name="code">
+        action = {
+          "type": "ir.actions.act_window",
+          "view_mode": "tree,form",
+          "res_model": self._name,
+        }
+      </field>
+    </record>
+    -->
+
+    <!-- Top menu item -->
+    <!--
+    <menuitem name="pm" id="pm.menu_root"/>
+    -->
+    <!-- menu categories -->
+    <!--
+    <menuitem name="Menu 1" id="pm.menu_1" parent="pm.menu_root"/>
+    <menuitem name="Menu 2" id="pm.menu_2" parent="pm.menu_root"/>
+    -->
+    <!-- actions -->
+    <!--
+    <menuitem name="List" id="pm.menu_1_list" parent="pm.menu_1"
+              action="pm.action_window"/>
+    <menuitem name="Server to list" id="pm" parent="pm.menu_2"
+              action="pm.action_server"/>
+    -->
+  </data>
+</odoo>
